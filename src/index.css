@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h1 {
+  text-align: center;
+}
+
+.content-block {
+  display: grid;
+  grid-auto-flow: row;
+  width: 1000px;
+  margin: 24px auto;
+  padding: 48px;
+  background-color: pink;
+}
+
+.visualization-container {
+  padding: 16px;
+  margin: 8px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  background-color: navajowhite;
+}
+
+.visualization p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
