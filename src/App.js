@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ContentBlock from './components/contentblock/ContentBlock';
-import ConverterContainer from './components/currencyconverter/ConverterContainer';
+import PubSubContentBlock from './components/rxjs_example/ContentBlock';
+import ContextualizedContentBlock from './components/context_api_example/ContentBlock';
 import { visualization_containers, conversion_rates } from './resources/data';
 
 class App extends Component {
@@ -13,11 +13,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Content Block Example</h1>
-        <ContentBlock visualizationContainers={this.visualizationContainers} />
+        <h1>Content Block Example Using Observables</h1>
+        <PubSubContentBlock visualizationContainers={this.visualizationContainers} />
 
-        <h1>Currency Converter Example</h1>
-        <ConverterContainer conversionRates={this.conversionRates} />
+        <h1>Content Block Example Using the Context API</h1>
+        <ContextualizedContentBlock visualizationContainers={this.visualizationContainers} />
+
       </div>
     );
   }
