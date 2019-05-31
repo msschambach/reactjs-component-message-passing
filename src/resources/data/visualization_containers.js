@@ -2,61 +2,61 @@ export default [
     [
         {
             type: "plaintext",
-            title: "Kudos!",
+            title: "Chuck Norris Facts",
             group: "group1",
             message: "Chuck Norris can drink soup...........with chopsticks."
         },
         {
             type: "plaintext",
-            title: "Well Done!",
+            title: "Motivational Quotes",
             group: "group2",
-            message: "Holy guacamole! It works!"
+            message: "Your limitation—it’s only your imagination."
         },
         {
             type: "plaintext",
-            title: "Bravo!",
+            title: "One liner jokes",
             group: "group3",
-            message: "Well slap my head and call me silly! It still works!"
+            message: "It's always hard to explain puns to kleptomaniacs because they're always taking things literally."
         }
     ],
     [
         {
             type: "plaintext",
-            title: "Awesome!",
+            title: "Chuck Norris Facts",
             group: "group1",
             message: "Chuck Norris came before the chicken or the egg."
         },
         {
             type: "plaintext",
-            title: "Excellent!",
+            title: "Motivational Quotes",
             group: "group2",
-            message: "Holy guacamole! It works!"
+            message: "Sometimes later becomes never. Do it now."
         },
         {
             type: "plaintext",
-            title: "Sublime!",
+            title: "One liner jokes",
             group: "group3",
-            message: "Well slap my head and call me silly! It still works!"
+            message: "I'll never forget my grandfather's last words to me before he kicked the bucket. He looked me in the eyes and said, 'Son, how far do you think I can kick this bucket?"
         },
     ],
     [
         {
             type: "plaintext",
-            title: "Impressive!",
+            title: "Chuck Norris Facts",
             group: "group1",
-            message: "Fun fact: Chuck Norris once had a street named after him, but they had to change the name because nobody crosses chuck Norris and lives"
+            message: "When Chuck Norris enters a room, he doesn't turn the lights on, he turns the dark off."
         },
         {
             type: "plaintext",
-            title: "Brilliant!",
+            title: "Motivational Quotes",
             group: "group2",
-            message: "Holy guacamole! It works!"
+            message: "It’s going to be hard, but hard does not mean impossible."
         },
         {
             type: "plaintext",
-            title: "Amazing!",
+            title: "One liner jokes",
             group: "group3",
-            message: "Well slap my head and call me silly! It still works!"
+            message: "I didn't know my dad was a construction site thief, but when I got home all the signs were there."
         },
     ]
 ]

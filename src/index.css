@@ -20,7 +20,7 @@ h1 {
   width: 1500px;
   margin: 24px auto 10rem;
   padding: 48px;
-  background-color: pink;
+  background-color: #95c8d8;
 
 }
 
@@ -37,7 +37,7 @@ h1 {
   margin: 8px;
   border: 1px solid #333;
   border-radius: 3px;
-  background-color: navajowhite;
+  background-color: #89cff0;
 }
 
 .visualization-container select {
