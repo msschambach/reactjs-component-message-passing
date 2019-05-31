@@ -13,8 +13,9 @@ class ContentBlock extends Component {
 
     render() {
         return (
-            <div className="content-block">
+            <article className="content-block">
                 <h1>Content Block</h1>
+                <section>
                 <VisualizationContainer
                     index={0}
                     messageService={this.messageService}
@@ -29,7 +30,8 @@ class ContentBlock extends Component {
                     index={2}
                     messageService={this.messageService}
                     visualizations={this.props.visualizationContainers[2]} />
-            </div>
+                </section>
+            </article>
         )
     }
 }
