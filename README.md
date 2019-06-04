@@ -1,4 +1,4 @@
-# React Js Component Message Passing
+# React JS Component Message Passing
 
 Just playing around with different approaches to passing around messages and data from one component to another.
 
